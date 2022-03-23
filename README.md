@@ -1,6 +1,9 @@
-# powerup
+# PowerUp
 
 A new Flutter application.
+- [Information about SSADungeon can be found here](https://github.com/AlvinTang011/Power-Up/blob/main/documentation/Power%20Up%20Presentation.pdf)
+- [Information about SSADungeon documentation can be found here](https://github.com/AlvinTang011/Power-Up/tree/main/documentation)
+- [Application Demonstration by me can be found here](https://youtu.be/rAMtpLqxaIU)
 
 ## Getting Started
 
