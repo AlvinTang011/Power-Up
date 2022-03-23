@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+  <meta name="description" content="API docs for the DBHelper class from the DBHelper library, for the Dart programming language.">
+  <title>DBHelper class - DBHelper library - Dart API</title>
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="../static-assets/github.css">
+  <link rel="stylesheet" href="../static-assets/styles.css">
+  <link rel="icon" href="../static-assets/favicon.png">
+
+</head>
+
+<body data-base-href="../"
+      data-using-base-href="false">
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <button id="sidenav-left-toggle" type="button">&nbsp;</button>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="../index.html">powerup</a></li>
+    <li><a href="../DBHelper/DBHelper-library.html">DBHelper</a></li>
+    <li class="self-crumb">DBHelper class</li>
+  </ol>
+  <div class="self-name">DBHelper</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<main>
+
+  <div id="dartdoc-sidebar-left" class="sidebar sidebar-offcanvas-left">
+    <header id="header-search-sidebar" class="hidden-l">
+      <form class="search-sidebar" role="search">
+        <input type="text" id="search-sidebar" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+      </form>
+    </header>
+    
+    <ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+      <li><a href="../index.html">powerup</a></li>
+      <li><a href="../DBHelper/DBHelper-library.html">DBHelper</a></li>
+      <li class="self-crumb">DBHelper class</li>
+    </ol>
+    
+    <h5>DBHelper library</h5>
+    <ol>
+  <li class="section-title"><a href="../DBHelper/DBHelper-library.html#classes">Classes</a></li>
+  <li><a href="../DBHelper/DBHelper-class.html">DBHelper</a></li>
+
+
+
+
+
+
+
+
+</ol>
+
+  </div>
+
+  <div id="dartdoc-main-content" class="main-content">
+      <div><h1><span class="kind-class">DBHelper</span> class  </h1></div>
+
+    
+
+    <section class="summary offset-anchor" id="constructors">
+      <h2>Constructors</h2>
+
+      <dl class="constructor-summary-list">
+        <dt id="DBHelper" class="callable">
+          <span class="name"><a href="../DBHelper/DBHelper/DBHelper.html">DBHelper</a></span><span class="signature">()</span>
+        </dt>
+        <dd>
+           
+        </dd>
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor" id="instance-properties">
+      <h2>Properties</h2>
+
+      <dl class="properties">
+        <dt id="db" class="property">
+          <span class="name"><a href="../DBHelper/DBHelper/db.html">db</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://pub.dev/documentation/sqflite_common/2.0.0+2/sqlite_api/Database-class.html">Database</a></span>&gt;</span></span>         
+        </dt>
+        <dd>
+          This function initializes a new database when the current database is null,
+and returns the current database when it is not null 
+                  <div class="features">read-only</div>
+</dd>
+        <dt id="hashCode" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/hashCode.html">hashCode</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span>         
+        </dt>
+        <dd class="inherited">
+          The hash code for this object. <a href="https://api.flutter.dev/flutter/dart-core/Object/hashCode.html">[...]</a>
+                  <div class="features">read-only, inherited</div>
+</dd>
+        <dt id="runtimeType" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/runtimeType.html">runtimeType</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/Type-class.html">Type</a></span>         
+        </dt>
+        <dd class="inherited">
+          A representation of the runtime type of the object. 
+                  <div class="features">read-only, inherited</div>
+</dd>
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor" id="instance-methods">
+      <h2>Methods</h2>
+      <dl class="callables">
+        <dt id="addCourse" class="callable">
+          <span class="name"><a href="../DBHelper/DBHelper/addCourse.html">addCourse</a></span><span class="signature">(<wbr><span class="parameter" id="addCourse-param-course"><span class="type-annotation"><a href="../entities_Course/Course-class.html">Course</a></span> <span class="parameter-name">course</span>, </span><span class="parameter" id="addCourse-param-sessions"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../entities_Session/Session-class.html">Session</a></span>&gt;</span></span> <span class="parameter-name">sessions</span></span>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>&gt;</span></span>
+          </span>
+                  </dt>
+        <dd>
+          This function adds sessions into the Session table and adds a new course
+into the Course table 
+                  
+</dd>
+        <dt id="close" class="callable">
+          <span class="name"><a href="../DBHelper/DBHelper/close.html">close</a></span><span class="signature">(<wbr>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a></span>
+          </span>
+                  </dt>
+        <dd>
+          This function closes the database 
+                  
+</dd>
+        <dt id="deleteCourse" class="callable">
+          <span class="name"><a href="../DBHelper/DBHelper/deleteCourse.html">deleteCourse</a></span><span class="signature">(<wbr><span class="parameter" id="deleteCourse-param-courseID"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">courseID</span></span>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>&gt;</span></span>
+          </span>
+                  </dt>
+        <dd>
+          This function deletes a course from the Course table 
+                  
+</dd>
+        <dt id="deleteFavCourseByUser" class="callable">
+          <span class="name"><a href="../DBHelper/DBHelper/deleteFavCourseByUser.html">deleteFavCourseByUser</a></span><span class="signature">(<wbr><span class="parameter" id="deleteFavCourseByUser-param-emailAddress"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span> <span class="parameter-name">emailAddress</span>, </span><span class="parameter" id="deleteFavCourseByUser-param-courseID"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">courseID</span></span>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>&gt;</span></span>
+          </span>
+                  </dt>
+        <dd>
+          This function deletes a course from a user's list of favourited courses from
+the Favourite table 
+                  
+</dd>
+        <dt id="deleteRegisterByCourse" class="callable">
+          <span class="name"><a href="../DBHelper/DBHelper/deleteRegisterByCourse.html">deleteRegisterByCourse</a></span><span class="signature">(<wbr><span class="parameter" id="deleteRegisterByCourse-param-courseID"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">courseID</span></span>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>&gt;</span></span>
+          </span>
+                  </dt>
+        <dd>
+          This function deletes all the courseID from the Register table when the
+course is removed 
+                  
+</dd>
+        <dt id="deleteRegisterBySession" class="callable">
+          <span class="name"><a href="../DBHelper/DBHelper/deleteRegisterBySession.html">deleteRegisterBySession</a></span><span class="signature">(<wbr><span class="parameter" id="deleteRegisterBySession-param-sessionID"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">sessionID</span></span>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>&gt;</span></span>
+          </span>
+                  </dt>
+        <dd>
+          This function deletes all the sessionID from the Register table when the
+session is removed 
+                  
+</dd>
+        <dt id="deleteRegisterByUser" class="callable">
+          <span class="name"><a href="../DBHelper/DBHelper/deleteRegisterByUser.html">deleteRegisterByUser</a></span><span class="signature">(<wbr><span class="parameter" id="deleteRegisterByUser-param-userEmail"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span> <span class="parameter-name">userEmail</span>, </span><span class="parameter" id="deleteRegisterByUser-param-courseID"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">courseID</span></span>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>&gt;</span></span>
+          </span>
+                  </dt>
+        <dd>
+          This function deletes a user from the Register table when he withdraws
+from a course 
+                  
+</dd>
+        <dt id="deleteSession" class="callable">
+          <span class="name"><a href="../DBHelper/DBHelper/deleteSession.html">deleteSession</a></span><span class="signature">(<wbr><span class="parameter" id="deleteSession-param-sessionID"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">sessionID</span>, </span><span class="parameter" id="deleteSession-param-courseID"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">courseID</span></span>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>&gt;</span></span>
+          </span>
+                  </dt>
+        <dd>
+          This function deletes a session from the Session table 
+                  
+</dd>
+        <dt id="deleteUser" class="callable">
+          <span class="name"><a href="../DBHelper/DBHelper/deleteUser.html">deleteUser</a></span><span class="signature">(<wbr><span class="parameter" id="deleteUser-param-emailAddress"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span> <span class="parameter-name">emailAddress</span></span>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>&gt;</span></span>
+          </span>
+                  </dt>
+        <dd>
+          This function deletes a user from the User table 
+                  
+</dd>
+        <dt id="deleteVendor" class="callable">
+          <span class="name"><a href="../DBHelper/DBHelper/deleteVendor.html">deleteVendor</a></span><span class="signature">(<wbr><span class="parameter" id="deleteVendor-param-emailAddress"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span> <span class="parameter-name">emailAddress</span></span>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>&gt;</span></span>
+          </span>
+                  </dt>
+        <dd>
+          This function deletes a vendor from the Vendor table 
+                  
+</dd>
+        <dt id="getAllCourses" class="callable">
+          <span class="name"><a href="../DBHelper/DBHelper/getAllCourses.html">getAllCourses</a></span><span class="signature">(<wbr>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../entities_Course/Course-class.html">Course</a></span>&gt;</span></span>&gt;</span></span>
+          </span>
+                  </dt>
+        <dd>
+          This function returns a list of all courses from the Course table 
+                  
+</dd>
+        <dt id="getAllSessions" class="callable">
+          <span class="name"><a href="../DBHelper/DBHelper/getAllSessions.html">getAllSessions</a></span><span class="signature">(<wbr>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../entities_Session/Session-class.html">Session</a></span>&gt;</span></span>&gt;</span></span>
+          </span>
+                  </dt>
+        <dd>
+          This function returns a list of sessions from the Session table 
+                  
+</dd>
+        <dt id="getAllUsers" class="callable">
+          <span class="name"><a href="../DBHelper/DBHelper/getAllUsers.html">getAllUsers</a></span><span class="signature">(<wbr>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../entities_User/User-class.html">User</a></span>&gt;</span></span>&gt;</span></span>
+          </span>
+                  </dt>
+        <dd>
+          This function returns a list of all users from the User table 
+                  
+</dd>
+        <dt id="getAllVendors" class="callable">
+          <span class="name"><a href="../DBHelper/DBHelper/getAllVendors.html">getAllVendors</a></span><span class="signature">(<wbr>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../entities_Vendor/Vendor-class.html">Vendor</a></span>&gt;</span></span>&gt;</span></span>
+          </span>
+                  </dt>
+        <dd>
+          This function returns a list of all vendors from the Vendor table 
+                  
+</dd>
+        <dt id="getCourseById" class="callable">
+          <span class="name"><a href="../DBHelper/DBHelper/getCourseById.html">getCourseById</a></span><span class="signature">(<wbr><span class="parameter" id="getCourseById-param-courseID"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">courseID</span></span>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../entities_Course/Course-class.html">Course</a></span>&gt;</span></span>
+          </span>
+                  </dt>
+        <dd>
+          This function returns a course object given a courseID from the Course table 
+                  
+</dd>
+        <dt id="getFavForUser" class="callable">
+          <span class="name"><a href="../DBHelper/DBHelper/getFavForUser.html">getFavForUser</a></span><span class="signature">(<wbr><span class="parameter" id="getFavForUser-param-email"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span> <span class="parameter-name">email</span></span>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../entities_Course/Course-class.html">Course</a></span>&gt;</span></span>&gt;</span></span>
+          </span>
+                  </dt>
+        <dd>
+          This function returns a list of favourited courses by a user from the Favourite table 
+                  
+</dd>
+        <dt id="getLatestCourseID" class="callable">
+          <span class="name"><a href="../DBHelper/DBHelper/getLatestCourseID.html">getLatestCourseID</a></span><span class="signature">(<wbr>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span>&gt;</span></span>
+          </span>
+                  </dt>
+        <dd>
+          This function returns the latest, largest courseID 
+                  
+</dd>
+        <dt id="getPopularityByCourse" class="callable">
+          <span class="name"><a href="../DBHelper/DBHelper/getPopularityByCourse.html">getPopularityByCourse</a></span><span class="signature">(<wbr><span class="parameter" id="getPopularityByCourse-param-list"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../entities_Course/Course-class.html">Course</a></span>&gt;</span></span> <span class="parameter-name">list</span></span>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../entities_Course/Course-class.html">Course</a></span>&gt;</span></span>&gt;</span></span>
+          </span>
+                  </dt>
+        <dd>
+          This function returns a list of courses ordered by their popularity 
+                  
+</dd>
+        <dt id="getRegisterBySession" class="callable">
+          <span class="name"><a href="../DBHelper/DBHelper/getRegisterBySession.html">getRegisterBySession</a></span><span class="signature">(<wbr><span class="parameter" id="getRegisterBySession-param-sessionID"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">sessionID</span></span>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>&gt;</span></span>&gt;</span></span>
+          </span>
+                  </dt>
+        <dd>
+          This function returns a list of email addresses of users registered in a
+session from the Register table 
+                  
+</dd>
+        <dt id="getRegisterByUser" class="callable">
+          <span class="name"><a href="../DBHelper/DBHelper/getRegisterByUser.html">getRegisterByUser</a></span><span class="signature">(<wbr><span class="parameter" id="getRegisterByUser-param-userEmail"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span> <span class="parameter-name">userEmail</span></span>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../entities_Course/Course-class.html">Course</a></span>&gt;</span></span>&gt;</span></span>
+          </span>
+                  </dt>
+        <dd>
+          This function returns a list of courses that a user has registered from
+the Register table 
+                  
+</dd>
+        <dt id="getSessionsByCourse" class="callable">
+          <span class="name"><a href="../DBHelper/DBHelper/getSessionsByCourse.html">getSessionsByCourse</a></span><span class="signature">(<wbr><span class="parameter" id="getSessionsByCourse-param-courseID"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">courseID</span></span>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../entities_Session/Session-class.html">Session</a></span>&gt;</span></span>&gt;</span></span>
+          </span>
+                  </dt>
+        <dd>
+          This function returns a list of sessions given a courseID from the
+Session table 
+                  
+</dd>
+        <dt id="getUserByEmail" class="callable">
+          <span class="name"><a href="../DBHelper/DBHelper/getUserByEmail.html">getUserByEmail</a></span><span class="signature">(<wbr><span class="parameter" id="getUserByEmail-param-emailAddress"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>&gt;</span></span> <span class="parameter-name">emailAddress</span></span>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>&gt;</span></span>&gt;</span></span>
+          </span>
+                  </dt>
+        <dd>
+          This function returns a list of names of users registered for each session for
+the particular course that the vendor wants to see 
+                  
+</dd>
+        <dt id="getVendorCourse" class="callable">
+          <span class="name"><a href="../DBHelper/DBHelper/getVendorCourse.html">getVendorCourse</a></span><span class="signature">(<wbr><span class="parameter" id="getVendorCourse-param-contactNumberPoc"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">contactNumberPoc</span></span>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../entities_Course/Course-class.html">Course</a></span>&gt;</span></span>&gt;</span></span>
+          </span>
+                  </dt>
+        <dd>
+          This function returns a list of courses that a vendor has created from the
+Course table 
+                  
+</dd>
+        <dt id="initDb" class="callable">
+          <span class="name"><a href="../DBHelper/DBHelper/initDb.html">initDb</a></span><span class="signature">(<wbr>)
+            <span class="returntype parameter">&#8594; Future</span>
+          </span>
+                  </dt>
+        <dd>
+          If the current database is not null, this function executes to retrieve the
+current database 
+                  
+</dd>
+        <dt id="noSuchMethod" class="callable inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/noSuchMethod.html">noSuchMethod</a></span><span class="signature">(<wbr><span class="parameter" id="noSuchMethod-param-invocation"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Invocation-class.html">Invocation</a></span> <span class="parameter-name">invocation</span></span>)
+            <span class="returntype parameter">&#8594; dynamic</span>
+          </span>
+                  </dt>
+        <dd class="inherited">
+          Invoked when a non-existent method or property is accessed. <a href="https://api.flutter.dev/flutter/dart-core/Object/noSuchMethod.html">[...]</a>
+                  <div class="features">inherited</div>
+</dd>
+        <dt id="removeCourse" class="callable">
+          <span class="name"><a href="../DBHelper/DBHelper/removeCourse.html">removeCourse</a></span><span class="signature">(<wbr><span class="parameter" id="removeCourse-param-courseID"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">courseID</span></span>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>&gt;</span></span>
+          </span>
+                  </dt>
+        <dd>
+          This function gets the email addresses of the participants of a course and sends them a notification
+before removing the relevant data from respective tables 
+                  
+</dd>
+        <dt id="saveCourse" class="callable">
+          <span class="name"><a href="../DBHelper/DBHelper/saveCourse.html">saveCourse</a></span><span class="signature">(<wbr><span class="parameter" id="saveCourse-param-course"><span class="type-annotation"><a href="../entities_Course/Course-class.html">Course</a></span> <span class="parameter-name">course</span></span>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../entities_Course/Course-class.html">Course</a></span>&gt;</span></span>
+          </span>
+                  </dt>
+        <dd>
+          This function saves a new course into the Course table 
+                  
+</dd>
+        <dt id="saveFavourite" class="callable">
+          <span class="name"><a href="../DBHelper/DBHelper/saveFavourite.html">saveFavourite</a></span><span class="signature">(<wbr><span class="parameter" id="saveFavourite-param-email"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span> <span class="parameter-name">email</span>, </span><span class="parameter" id="saveFavourite-param-courseID"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">courseID</span></span>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>&gt;</span></span>
+          </span>
+                  </dt>
+        <dd>
+          This function saves a user's favourite course into the Favourite Table 
+                  
+</dd>
+        <dt id="saveRegister" class="callable">
+          <span class="name"><a href="../DBHelper/DBHelper/saveRegister.html">saveRegister</a></span><span class="signature">(<wbr><span class="parameter" id="saveRegister-param-courseID"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">courseID</span>, </span><span class="parameter" id="saveRegister-param-sessionID"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">sessionID</span>, </span><span class="parameter" id="saveRegister-param-userEmail"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span> <span class="parameter-name">userEmail</span></span>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>&gt;</span></span>
+          </span>
+                  </dt>
+        <dd>
+          This function saves a new registered course and session for a user into the Register table 
+                  
+</dd>
+        <dt id="saveSession" class="callable">
+          <span class="name"><a href="../DBHelper/DBHelper/saveSession.html">saveSession</a></span><span class="signature">(<wbr><span class="parameter" id="saveSession-param-session"><span class="type-annotation"><a href="../entities_Session/Session-class.html">Session</a></span> <span class="parameter-name">session</span>, </span><span class="parameter" id="saveSession-param-courseID"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">courseID</span></span>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../entities_Session/Session-class.html">Session</a></span>&gt;</span></span>
+          </span>
+                  </dt>
+        <dd>
+          This function saves a new session into the Session table 
+                  
+</dd>
+        <dt id="saveUser" class="callable">
+          <span class="name"><a href="../DBHelper/DBHelper/saveUser.html">saveUser</a></span><span class="signature">(<wbr><span class="parameter" id="saveUser-param-user"><span class="type-annotation"><a href="../entities_User/User-class.html">User</a></span> <span class="parameter-name">user</span></span>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../entities_User/User-class.html">User</a></span>&gt;</span></span>
+          </span>
+                  </dt>
+        <dd>
+          This function saves a new user into the User table 
+                  
+</dd>
+        <dt id="saveVendor" class="callable">
+          <span class="name"><a href="../DBHelper/DBHelper/saveVendor.html">saveVendor</a></span><span class="signature">(<wbr><span class="parameter" id="saveVendor-param-vendor"><span class="type-annotation"><a href="../entities_Vendor/Vendor-class.html">Vendor</a></span> <span class="parameter-name">vendor</span></span>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../entities_Vendor/Vendor-class.html">Vendor</a></span>&gt;</span></span>
+          </span>
+                  </dt>
+        <dd>
+          This function saves a new vendor into the Vendor table 
+                  
+</dd>
+        <dt id="toString" class="callable inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/toString.html">toString</a></span><span class="signature">(<wbr>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+          </span>
+                  </dt>
+        <dd class="inherited">
+          A string representation of this object. <a href="https://api.flutter.dev/flutter/dart-core/Object/toString.html">[...]</a>
+                  <div class="features">inherited</div>
+</dd>
+        <dt id="updateCourse" class="callable">
+          <span class="name"><a href="../DBHelper/DBHelper/updateCourse.html">updateCourse</a></span><span class="signature">(<wbr><span class="parameter" id="updateCourse-param-course"><span class="type-annotation"><a href="../entities_Course/Course-class.html">Course</a></span> <span class="parameter-name">course</span></span>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>&gt;</span></span>
+          </span>
+                  </dt>
+        <dd>
+          This function updates an existing course in the Course table 
+                  
+</dd>
+        <dt id="updateRegister" class="callable">
+          <span class="name"><a href="../DBHelper/DBHelper/updateRegister.html">updateRegister</a></span><span class="signature">(<wbr><span class="parameter" id="updateRegister-param-courseID"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">courseID</span>, </span><span class="parameter" id="updateRegister-param-sessionID"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">sessionID</span>, </span><span class="parameter" id="updateRegister-param-userEmail"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span> <span class="parameter-name">userEmail</span></span>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>&gt;</span></span>
+          </span>
+                  </dt>
+        <dd>
+          This function updates the Register table when a new user registers for a
+course/session 
+                  
+</dd>
+        <dt id="updateSession" class="callable">
+          <span class="name"><a href="../DBHelper/DBHelper/updateSession.html">updateSession</a></span><span class="signature">(<wbr><span class="parameter" id="updateSession-param-session"><span class="type-annotation"><a href="../entities_Session/Session-class.html">Session</a></span> <span class="parameter-name">session</span></span>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>&gt;</span></span>
+          </span>
+                  </dt>
+        <dd>
+          This function updates an existing session in the Session table 
+                  
+</dd>
+        <dt id="updateUser" class="callable">
+          <span class="name"><a href="../DBHelper/DBHelper/updateUser.html">updateUser</a></span><span class="signature">(<wbr><span class="parameter" id="updateUser-param-user"><span class="type-annotation"><a href="../entities_User/User-class.html">User</a></span> <span class="parameter-name">user</span></span>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>&gt;</span></span>
+          </span>
+                  </dt>
+        <dd>
+          This function updates an existing user in the User table 
+                  
+</dd>
+        <dt id="updateVendor" class="callable">
+          <span class="name"><a href="../DBHelper/DBHelper/updateVendor.html">updateVendor</a></span><span class="signature">(<wbr><span class="parameter" id="updateVendor-param-vendor"><span class="type-annotation"><a href="../entities_Vendor/Vendor-class.html">Vendor</a></span> <span class="parameter-name">vendor</span></span>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>&gt;</span></span>
+          </span>
+                  </dt>
+        <dd>
+          This function updates an existing vendor in the Vendor table 
+                  
+</dd>
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor inherited" id="operators">
+      <h2>Operators</h2>
+      <dl class="callables">
+        <dt id="operator ==" class="callable inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/operator_equals.html">operator ==</a></span><span class="signature">(<wbr><span class="parameter" id="==-param-other"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a></span> <span class="parameter-name">other</span></span>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+          </span>
+                  </dt>
+        <dd class="inherited">
+          The equality operator. <a href="https://api.flutter.dev/flutter/dart-core/Object/operator_equals.html">[...]</a>
+                  <div class="features">inherited</div>
+</dd>
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor" id="static-properties">
+      <h2>Static Properties</h2>
+
+      <dl class="properties">
+        <dt id="single_instance" class="property">
+          <span class="name"><a href="../DBHelper/DBHelper/single_instance.html">single_instance</a></span>
+          <span class="signature">&#8596; <a href="../DBHelper/DBHelper-class.html">DBHelper</a></span>         
+        </dt>
+        <dd>
+          Singleton 
+                  <div class="features">read / write</div>
+</dd>
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor" id="static-methods">
+      <h2>Static Methods</h2>
+      <dl class="callables">
+        <dt id="getInstance" class="callable">
+          <span class="name"><a href="../DBHelper/DBHelper/getInstance.html">getInstance</a></span><span class="signature">(<wbr>)
+            <span class="returntype parameter">&#8594; <a href="../DBHelper/DBHelper-class.html">DBHelper</a></span>
+          </span>
+                  </dt>
+        <dd>
+           
+                  
+</dd>
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor" id="constants">
+      <h2>Constants</h2>
+
+      <dl class="properties">
+        <dt id="ageGroup" class="constant">
+          <span class="name "><a href="../DBHelper/DBHelper/ageGroup-constant.html">ageGroup</a></span>
+          <span class="signature">&#8594; const <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+                  </dt>
+        <dd>
+           
+                  
+  <div>
+            <span class="signature"><code>&#39;ageGroup&#39;</code></span>
+          </div>
+        </dd>
+        <dt id="busRegNum" class="constant">
+          <span class="name "><a href="../DBHelper/DBHelper/busRegNum-constant.html">busRegNum</a></span>
+          <span class="signature">&#8594; const <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+                  </dt>
+        <dd>
+           
+                  
+  <div>
+            <span class="signature"><code>&#39;busRegNum&#39;</code></span>
+          </div>
+        </dd>
+        <dt id="classSize" class="constant">
+          <span class="name "><a href="../DBHelper/DBHelper/classSize-constant.html">classSize</a></span>
+          <span class="signature">&#8594; const <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+                  </dt>
+        <dd>
+           
+                  
+  <div>
+            <span class="signature"><code>&#39;classSize&#39;</code></span>
+          </div>
+        </dd>
+        <dt id="compName" class="constant">
+          <span class="name "><a href="../DBHelper/DBHelper/compName-constant.html">compName</a></span>
+          <span class="signature">&#8594; const <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+                  </dt>
+        <dd>
+           
+                  
+  <div>
+            <span class="signature"><code>&#39;companyName&#39;</code></span>
+          </div>
+        </dd>
+        <dt id="contactNum" class="constant">
+          <span class="name "><a href="../DBHelper/DBHelper/contactNum-constant.html">contactNum</a></span>
+          <span class="signature">&#8594; const <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+                  </dt>
+        <dd>
+           
+                  
+  <div>
+            <span class="signature"><code>&#39;contactNum&#39;</code></span>
+          </div>
+        </dd>
+        <dt id="contactNumOfPOC" class="constant">
+          <span class="name "><a href="../DBHelper/DBHelper/contactNumOfPOC-constant.html">contactNumOfPOC</a></span>
+          <span class="signature">&#8594; const <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+                  </dt>
+        <dd>
+           
+                  
+  <div>
+            <span class="signature"><code>&#39;contactNumOfPOC&#39;</code></span>
+          </div>
+        </dd>
+        <dt id="courseDesc" class="constant">
+          <span class="name "><a href="../DBHelper/DBHelper/courseDesc-constant.html">courseDesc</a></span>
+          <span class="signature">&#8594; const <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+                  </dt>
+        <dd>
+           
+                  
+  <div>
+            <span class="signature"><code>&#39;courseDesc&#39;</code></span>
+          </div>
+        </dd>
+        <dt id="courseID" class="constant">
+          <span class="name "><a href="../DBHelper/DBHelper/courseID-constant.html">courseID</a></span>
+          <span class="signature">&#8594; const <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+                  </dt>
+        <dd>
+           
+                  
+  <div>
+            <span class="signature"><code>&#39;courseID&#39;</code></span>
+          </div>
+        </dd>
+        <dt id="CourseTABLE" class="constant">
+          <span class="name "><a href="../DBHelper/DBHelper/CourseTABLE-constant.html">CourseTABLE</a></span>
+          <span class="signature">&#8594; const <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+                  </dt>
+        <dd>
+           
+                  
+  <div>
+            <span class="signature"><code>&#39;Course&#39;</code></span>
+          </div>
+        </dd>
+        <dt id="courseTitle" class="constant">
+          <span class="name "><a href="../DBHelper/DBHelper/courseTitle-constant.html">courseTitle</a></span>
+          <span class="signature">&#8594; const <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+                  </dt>
+        <dd>
+           
+                  
+  <div>
+            <span class="signature"><code>&#39;courseTitle&#39;</code></span>
+          </div>
+        </dd>
+        <dt id="dateTime" class="constant">
+          <span class="name "><a href="../DBHelper/DBHelper/dateTime-constant.html">dateTime</a></span>
+          <span class="signature">&#8594; const <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+                  </dt>
+        <dd>
+           
+                  
+  <div>
+            <span class="signature"><code>&#39;dateTime&#39;</code></span>
+          </div>
+        </dd>
+        <dt id="DB_NAME" class="constant">
+          <span class="name "><a href="../DBHelper/DBHelper/DB_NAME-constant.html">DB_NAME</a></span>
+          <span class="signature">&#8594; const <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+                  </dt>
+        <dd>
+           
+                  
+  <div>
+            <span class="signature"><code>&#39;MainDB.db&#39;</code></span>
+          </div>
+        </dd>
+        <dt id="dob" class="constant">
+          <span class="name "><a href="../DBHelper/DBHelper/dob-constant.html">dob</a></span>
+          <span class="signature">&#8594; const <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+                  </dt>
+        <dd>
+           
+                  
+  <div>
+            <span class="signature"><code>&#39;DOB&#39;</code></span>
+          </div>
+        </dd>
+        <dt id="emailAddress" class="constant">
+          <span class="name "><a href="../DBHelper/DBHelper/emailAddress-constant.html">emailAddress</a></span>
+          <span class="signature">&#8594; const <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+                  </dt>
+        <dd>
+           
+                  
+  <div>
+            <span class="signature"><code>&#39;emailAddress&#39;</code></span>
+          </div>
+        </dd>
+        <dt id="FavTABLE" class="constant">
+          <span class="name "><a href="../DBHelper/DBHelper/FavTABLE-constant.html">FavTABLE</a></span>
+          <span class="signature">&#8594; const <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+                  </dt>
+        <dd>
+           
+                  
+  <div>
+            <span class="signature"><code>&#39;Favourite&#39;</code></span>
+          </div>
+        </dd>
+        <dt id="location" class="constant">
+          <span class="name "><a href="../DBHelper/DBHelper/location-constant.html">location</a></span>
+          <span class="signature">&#8594; const <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+                  </dt>
+        <dd>
+           
+                  
+  <div>
+            <span class="signature"><code>&#39;location&#39;</code></span>
+          </div>
+        </dd>
+        <dt id="name" class="constant">
+          <span class="name "><a href="../DBHelper/DBHelper/name-constant.html">name</a></span>
+          <span class="signature">&#8594; const <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+                  </dt>
+        <dd>
+           
+                  
+  <div>
+            <span class="signature"><code>&#39;name&#39;</code></span>
+          </div>
+        </dd>
+        <dt id="nameOfPOC" class="constant">
+          <span class="name "><a href="../DBHelper/DBHelper/nameOfPOC-constant.html">nameOfPOC</a></span>
+          <span class="signature">&#8594; const <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+                  </dt>
+        <dd>
+           
+                  
+  <div>
+            <span class="signature"><code>&#39;nameOfPOC&#39;</code></span>
+          </div>
+        </dd>
+        <dt id="NOKname" class="constant">
+          <span class="name "><a href="../DBHelper/DBHelper/NOKname-constant.html">NOKname</a></span>
+          <span class="signature">&#8594; const <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+                  </dt>
+        <dd>
+           
+                  
+  <div>
+            <span class="signature"><code>&#39;NOKname&#39;</code></span>
+          </div>
+        </dd>
+        <dt id="NOKNum" class="constant">
+          <span class="name "><a href="../DBHelper/DBHelper/NOKNum-constant.html">NOKNum</a></span>
+          <span class="signature">&#8594; const <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+                  </dt>
+        <dd>
+           
+                  
+  <div>
+            <span class="signature"><code>&#39;NOKcontactNum&#39;</code></span>
+          </div>
+        </dd>
+        <dt id="passU" class="constant">
+          <span class="name "><a href="../DBHelper/DBHelper/passU-constant.html">passU</a></span>
+          <span class="signature">&#8594; const <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+                  </dt>
+        <dd>
+           
+                  
+  <div>
+            <span class="signature"><code>&#39;passwordU&#39;</code></span>
+          </div>
+        </dd>
+        <dt id="passV" class="constant">
+          <span class="name "><a href="../DBHelper/DBHelper/passV-constant.html">passV</a></span>
+          <span class="signature">&#8594; const <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+                  </dt>
+        <dd>
+           
+                  
+  <div>
+            <span class="signature"><code>&#39;passwordV&#39;</code></span>
+          </div>
+        </dd>
+        <dt id="price" class="constant">
+          <span class="name "><a href="../DBHelper/DBHelper/price-constant.html">price</a></span>
+          <span class="signature">&#8594; const <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+                  </dt>
+        <dd>
+           
+                  
+  <div>
+            <span class="signature"><code>&#39;price&#39;</code></span>
+          </div>
+        </dd>
+        <dt id="rating" class="constant">
+          <span class="name "><a href="../DBHelper/DBHelper/rating-constant.html">rating</a></span>
+          <span class="signature">&#8594; const <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+                  </dt>
+        <dd>
+           
+                  
+  <div>
+            <span class="signature"><code>&#39;rating&#39;</code></span>
+          </div>
+        </dd>
+        <dt id="regDeadline" class="constant">
+          <span class="name "><a href="../DBHelper/DBHelper/regDeadline-constant.html">regDeadline</a></span>
+          <span class="signature">&#8594; const <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+                  </dt>
+        <dd>
+           
+                  
+  <div>
+            <span class="signature"><code>&#39;regDeadline&#39;</code></span>
+          </div>
+        </dd>
+        <dt id="RegisterTABLE" class="constant">
+          <span class="name "><a href="../DBHelper/DBHelper/RegisterTABLE-constant.html">RegisterTABLE</a></span>
+          <span class="signature">&#8594; const <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+                  </dt>
+        <dd>
+           
+                  
+  <div>
+            <span class="signature"><code>&#39;Register&#39;</code></span>
+          </div>
+        </dd>
+        <dt id="sessionID" class="constant">
+          <span class="name "><a href="../DBHelper/DBHelper/sessionID-constant.html">sessionID</a></span>
+          <span class="signature">&#8594; const <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+                  </dt>
+        <dd>
+           
+                  
+  <div>
+            <span class="signature"><code>&#39;sessionID&#39;</code></span>
+          </div>
+        </dd>
+        <dt id="SessionTABLE" class="constant">
+          <span class="name "><a href="../DBHelper/DBHelper/SessionTABLE-constant.html">SessionTABLE</a></span>
+          <span class="signature">&#8594; const <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+                  </dt>
+        <dd>
+           
+                  
+  <div>
+            <span class="signature"><code>&#39;Session&#39;</code></span>
+          </div>
+        </dd>
+        <dt id="startDate" class="constant">
+          <span class="name "><a href="../DBHelper/DBHelper/startDate-constant.html">startDate</a></span>
+          <span class="signature">&#8594; const <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+                  </dt>
+        <dd>
+           
+                  
+  <div>
+            <span class="signature"><code>&#39;startDate&#39;</code></span>
+          </div>
+        </dd>
+        <dt id="startDateOfSession" class="constant">
+          <span class="name "><a href="../DBHelper/DBHelper/startDateOfSession-constant.html">startDateOfSession</a></span>
+          <span class="signature">&#8594; const <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+                  </dt>
+        <dd>
+           
+                  
+  <div>
+            <span class="signature"><code>&#39;startDate&#39;</code></span>
+          </div>
+        </dd>
+        <dt id="url" class="constant">
+          <span class="name "><a href="../DBHelper/DBHelper/url-constant.html">url</a></span>
+          <span class="signature">&#8594; const <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+                  </dt>
+        <dd>
+           
+                  
+  <div>
+            <span class="signature"><code>&#39;url&#39;</code></span>
+          </div>
+        </dd>
+        <dt id="UserTABLE" class="constant">
+          <span class="name "><a href="../DBHelper/DBHelper/UserTABLE-constant.html">UserTABLE</a></span>
+          <span class="signature">&#8594; const <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+                  </dt>
+        <dd>
+           
+                  
+  <div>
+            <span class="signature"><code>&#39;User&#39;</code></span>
+          </div>
+        </dd>
+        <dt id="vacancy" class="constant">
+          <span class="name "><a href="../DBHelper/DBHelper/vacancy-constant.html">vacancy</a></span>
+          <span class="signature">&#8594; const <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+                  </dt>
+        <dd>
+           
+                  
+  <div>
+            <span class="signature"><code>&#39;vacancy&#39;</code></span>
+          </div>
+        </dd>
+        <dt id="VendorTABLE" class="constant">
+          <span class="name "><a href="../DBHelper/DBHelper/VendorTABLE-constant.html">VendorTABLE</a></span>
+          <span class="signature">&#8594; const <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+                  </dt>
+        <dd>
+           
+                  
+  <div>
+            <span class="signature"><code>&#39;Vendor&#39;</code></span>
+          </div>
+        </dd>
+      </dl>
+    </section>
+
+  </div> <!-- /.main-content -->
+
+  <div id="dartdoc-sidebar-right" class="sidebar sidebar-offcanvas-right">
+    <ol>
+
+    <li class="section-title"><a href="../DBHelper/DBHelper-class.html#constructors">Constructors</a></li>
+    <li><a href="../DBHelper/DBHelper/DBHelper.html">DBHelper</a></li>
+
+
+    <li class="section-title">
+      <a href="../DBHelper/DBHelper-class.html#instance-properties">Properties</a>
+    </li>
+    <li><a href="../DBHelper/DBHelper/db.html">db</a></li>
+    <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/hashCode.html">hashCode</a></li>
+    <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/runtimeType.html">runtimeType</a></li>
+
+    <li class="section-title"><a href="../DBHelper/DBHelper-class.html#instance-methods">Methods</a></li>
+    <li><a href="../DBHelper/DBHelper/addCourse.html">addCourse</a></li>
+    <li><a href="../DBHelper/DBHelper/close.html">close</a></li>
+    <li><a href="../DBHelper/DBHelper/deleteCourse.html">deleteCourse</a></li>
+    <li><a href="../DBHelper/DBHelper/deleteFavCourseByUser.html">deleteFavCourseByUser</a></li>
+    <li><a href="../DBHelper/DBHelper/deleteRegisterByCourse.html">deleteRegisterByCourse</a></li>
+    <li><a href="../DBHelper/DBHelper/deleteRegisterBySession.html">deleteRegisterBySession</a></li>
+    <li><a href="../DBHelper/DBHelper/deleteRegisterByUser.html">deleteRegisterByUser</a></li>
+    <li><a href="../DBHelper/DBHelper/deleteSession.html">deleteSession</a></li>
+    <li><a href="../DBHelper/DBHelper/deleteUser.html">deleteUser</a></li>
+    <li><a href="../DBHelper/DBHelper/deleteVendor.html">deleteVendor</a></li>
+    <li><a href="../DBHelper/DBHelper/getAllCourses.html">getAllCourses</a></li>
+    <li><a href="../DBHelper/DBHelper/getAllSessions.html">getAllSessions</a></li>
+    <li><a href="../DBHelper/DBHelper/getAllUsers.html">getAllUsers</a></li>
+    <li><a href="../DBHelper/DBHelper/getAllVendors.html">getAllVendors</a></li>
+    <li><a href="../DBHelper/DBHelper/getCourseById.html">getCourseById</a></li>
+    <li><a href="../DBHelper/DBHelper/getFavForUser.html">getFavForUser</a></li>
+    <li><a href="../DBHelper/DBHelper/getLatestCourseID.html">getLatestCourseID</a></li>
+    <li><a href="../DBHelper/DBHelper/getPopularityByCourse.html">getPopularityByCourse</a></li>
+    <li><a href="../DBHelper/DBHelper/getRegisterBySession.html">getRegisterBySession</a></li>
+    <li><a href="../DBHelper/DBHelper/getRegisterByUser.html">getRegisterByUser</a></li>
+    <li><a href="../DBHelper/DBHelper/getSessionsByCourse.html">getSessionsByCourse</a></li>
+    <li><a href="../DBHelper/DBHelper/getUserByEmail.html">getUserByEmail</a></li>
+    <li><a href="../DBHelper/DBHelper/getVendorCourse.html">getVendorCourse</a></li>
+    <li><a href="../DBHelper/DBHelper/initDb.html">initDb</a></li>
+    <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/noSuchMethod.html">noSuchMethod</a></li>
+    <li><a href="../DBHelper/DBHelper/removeCourse.html">removeCourse</a></li>
+    <li><a href="../DBHelper/DBHelper/saveCourse.html">saveCourse</a></li>
+    <li><a href="../DBHelper/DBHelper/saveFavourite.html">saveFavourite</a></li>
+    <li><a href="../DBHelper/DBHelper/saveRegister.html">saveRegister</a></li>
+    <li><a href="../DBHelper/DBHelper/saveSession.html">saveSession</a></li>
+    <li><a href="../DBHelper/DBHelper/saveUser.html">saveUser</a></li>
+    <li><a href="../DBHelper/DBHelper/saveVendor.html">saveVendor</a></li>
+    <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/toString.html">toString</a></li>
+    <li><a href="../DBHelper/DBHelper/updateCourse.html">updateCourse</a></li>
+    <li><a href="../DBHelper/DBHelper/updateRegister.html">updateRegister</a></li>
+    <li><a href="../DBHelper/DBHelper/updateSession.html">updateSession</a></li>
+    <li><a href="../DBHelper/DBHelper/updateUser.html">updateUser</a></li>
+    <li><a href="../DBHelper/DBHelper/updateVendor.html">updateVendor</a></li>
+
+    <li class="section-title inherited"><a href="../DBHelper/DBHelper-class.html#operators">Operators</a></li>
+    <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/operator_equals.html">operator ==</a></li>
+
+
+    <li class="section-title"><a href="../DBHelper/DBHelper-class.html#static-properties">Static properties</a></li>
+    <li><a href="../DBHelper/DBHelper/single_instance.html">single_instance</a></li>
+
+    <li class="section-title"><a href="../DBHelper/DBHelper-class.html#static-methods">Static methods</a></li>
+    <li><a href="../DBHelper/DBHelper/getInstance.html">getInstance</a></li>
+
+    <li class="section-title"><a href="../DBHelper/DBHelper-class.html#constants">Constants</a></li>
+    <li><a href="../DBHelper/DBHelper/ageGroup-constant.html">ageGroup</a></li>
+    <li><a href="../DBHelper/DBHelper/busRegNum-constant.html">busRegNum</a></li>
+    <li><a href="../DBHelper/DBHelper/classSize-constant.html">classSize</a></li>
+    <li><a href="../DBHelper/DBHelper/compName-constant.html">compName</a></li>
+    <li><a href="../DBHelper/DBHelper/contactNum-constant.html">contactNum</a></li>
+    <li><a href="../DBHelper/DBHelper/contactNumOfPOC-constant.html">contactNumOfPOC</a></li>
+    <li><a href="../DBHelper/DBHelper/courseDesc-constant.html">courseDesc</a></li>
+    <li><a href="../DBHelper/DBHelper/courseID-constant.html">courseID</a></li>
+    <li><a href="../DBHelper/DBHelper/CourseTABLE-constant.html">CourseTABLE</a></li>
+    <li><a href="../DBHelper/DBHelper/courseTitle-constant.html">courseTitle</a></li>
+    <li><a href="../DBHelper/DBHelper/dateTime-constant.html">dateTime</a></li>
+    <li><a href="../DBHelper/DBHelper/DB_NAME-constant.html">DB_NAME</a></li>
+    <li><a href="../DBHelper/DBHelper/dob-constant.html">dob</a></li>
+    <li><a href="../DBHelper/DBHelper/emailAddress-constant.html">emailAddress</a></li>
+    <li><a href="../DBHelper/DBHelper/FavTABLE-constant.html">FavTABLE</a></li>
+    <li><a href="../DBHelper/DBHelper/location-constant.html">location</a></li>
+    <li><a href="../DBHelper/DBHelper/name-constant.html">name</a></li>
+    <li><a href="../DBHelper/DBHelper/nameOfPOC-constant.html">nameOfPOC</a></li>
+    <li><a href="../DBHelper/DBHelper/NOKname-constant.html">NOKname</a></li>
+    <li><a href="../DBHelper/DBHelper/NOKNum-constant.html">NOKNum</a></li>
+    <li><a href="../DBHelper/DBHelper/passU-constant.html">passU</a></li>
+    <li><a href="../DBHelper/DBHelper/passV-constant.html">passV</a></li>
+    <li><a href="../DBHelper/DBHelper/price-constant.html">price</a></li>
+    <li><a href="../DBHelper/DBHelper/rating-constant.html">rating</a></li>
+    <li><a href="../DBHelper/DBHelper/regDeadline-constant.html">regDeadline</a></li>
+    <li><a href="../DBHelper/DBHelper/RegisterTABLE-constant.html">RegisterTABLE</a></li>
+    <li><a href="../DBHelper/DBHelper/sessionID-constant.html">sessionID</a></li>
+    <li><a href="../DBHelper/DBHelper/SessionTABLE-constant.html">SessionTABLE</a></li>
+    <li><a href="../DBHelper/DBHelper/startDate-constant.html">startDate</a></li>
+    <li><a href="../DBHelper/DBHelper/startDateOfSession-constant.html">startDateOfSession</a></li>
+    <li><a href="../DBHelper/DBHelper/url-constant.html">url</a></li>
+    <li><a href="../DBHelper/DBHelper/UserTABLE-constant.html">UserTABLE</a></li>
+    <li><a href="../DBHelper/DBHelper/vacancy-constant.html">vacancy</a></li>
+    <li><a href="../DBHelper/DBHelper/VendorTABLE-constant.html">VendorTABLE</a></li>
+</ol>
+
+  </div><!--/.sidebar-offcanvas-->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    powerup
+      1.0.0+1
+  </span>
+
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="../static-assets/typeahead.bundle.min.js"></script>
+<script src="../static-assets/highlight.pack.js"></script>
+<script src="../static-assets/script.js"></script>
+
+
+</body>
+
+</html>

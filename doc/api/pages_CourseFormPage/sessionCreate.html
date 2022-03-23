@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+  <meta name="description" content="API docs for the sessionCreate function from the CourseFormPage library, for the Dart programming language.">
+  <title>sessionCreate function - CourseFormPage library - Dart API</title>
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="../static-assets/github.css">
+  <link rel="stylesheet" href="../static-assets/styles.css">
+  <link rel="icon" href="../static-assets/favicon.png">
+
+</head>
+
+<body data-base-href="../"
+      data-using-base-href="false">
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <button id="sidenav-left-toggle" type="button">&nbsp;</button>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="../index.html">powerup</a></li>
+    <li><a href="../pages_CourseFormPage/pages_CourseFormPage-library.html">CourseFormPage</a></li>
+    <li class="self-crumb">sessionCreate function</li>
+  </ol>
+  <div class="self-name">sessionCreate</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<main>
+
+  <div id="dartdoc-sidebar-left" class="sidebar sidebar-offcanvas-left">
+    <header id="header-search-sidebar" class="hidden-l">
+      <form class="search-sidebar" role="search">
+        <input type="text" id="search-sidebar" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+      </form>
+    </header>
+    
+    <ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+      <li><a href="../index.html">powerup</a></li>
+      <li><a href="../pages_CourseFormPage/pages_CourseFormPage-library.html">CourseFormPage</a></li>
+      <li class="self-crumb">sessionCreate function</li>
+    </ol>
+    
+    <h5>CourseFormPage library</h5>
+    <ol>
+  <li class="section-title"><a href="../pages_CourseFormPage/pages_CourseFormPage-library.html#classes">Classes</a></li>
+  <li><a href="../pages_CourseFormPage/CourseFormPage-class.html">CourseFormPage</a></li>
+
+
+
+
+
+  <li class="section-title"><a href="../pages_CourseFormPage/pages_CourseFormPage-library.html#functions">Functions</a></li>
+  <li><a href="../pages_CourseFormPage/sessionCreate.html">sessionCreate</a></li>
+
+
+
+</ol>
+
+  </div><!--/.sidebar-offcanvas-left-->
+
+  <div id="dartdoc-main-content" class="main-content">
+      <div><h1><span class="kind-function">sessionCreate</span> function  </h1></div>
+
+    <section class="multi-line-signature">
+        <span class="returntype"><a href="https://api.flutter.dev/flutter/widgets/Widget-class.html">Widget</a></span>
+                <span class="name ">sessionCreate</span>
+(<wbr>)
+    </section>
+    <section class="desc markdown">
+      <p>This function creates a widget which allows the Vendor to input details about
+a session</p>
+    </section>
+    
+    <section class="summary source-code" id="source">
+      <h2><span>Implementation</span></h2>
+      <pre class="language-dart"><code class="language-dart">Widget sessionCreate() {
+  DateTime sdDT;
+  int sd;
+  bool sdFormat;
+  int yearNow = int.parse(DateFormat(&#39;yyyy&#39;).format(DateTime.now()));
+  final GlobalKey&lt;FormState&gt; _formKey2 = GlobalKey&lt;FormState&gt;();
+  TextEditingController vacancies = TextEditingController();
+  TextEditingController startDate = TextEditingController();
+  TextEditingController dateTime = TextEditingController();
+  return Padding(
+      padding: EdgeInsets.all(15.0),
+      child: Column(
+        children: [
+          TextFormField(
+            keyboardType: TextInputType.number,
+            controller: vacancies,
+            validator: (count) {
+              if (count.isEmpty) {
+                &#47;&#47;&#47; error message
+                return &#39;Compulsory field cannot be empty&#39;;
+              }
+              return null;
+            },
+            decoration: InputDecoration(
+              labelText: &#39;Session Class Vacancies(e.g. 20)&#39;,
+            ),
+          ),
+          SizedBox(
+            height: 10,
+          ),
+          Container(
+              child: TextFormField(
+                controller: startDate,
+                validator: (string) {
+                  sdFormat = false;
+                  if (string.isEmpty) {
+                    &#47;&#47;&#47; error message
+                    return &#39;Compulsory field cannot be empty&#39;;
+                  }
+                  try {
+                    sdDT = DateFormat(&#39;dd&#47;MM&#47;yyyy&#39;).parseStrict(string);
+                    sd = int.parse(DateFormat(&#39;yyyy&#39;).format(sdDT));
+                    if (sd &gt;= 1900 &amp;&amp; sd &lt; yearNow) {
+                      sdFormat = true;
+                      return null;
+                    }
+                    &#47;&#47;&#47; error message
+                    return &#39;Wrong date format&#39;;
+                  } catch (e) {
+                    &#47;&#47;&#47; error message
+                    return &#39;Wrong date format&#39;;
+                  }
+                },
+                decoration: InputDecoration(
+                    hintText: &quot;Session Start Date(DD&#47;MM&#47;YYYY)&quot;,
+                    border:
+                    OutlineInputBorder(borderRadius: BorderRadius.circular(16)),
+                    contentPadding: EdgeInsets.fromLTRB(10, 0, 0, 20)),
+              )),
+          TextFormField(
+            controller: dateTime,
+            validator: (count) {
+              if (count.isEmpty) {
+                &#47;&#47;&#47; error message
+                return &#39;Compulsory field cannot be empty&#39;;
+              }
+              return null;
+            },
+            decoration: InputDecoration(
+              labelText: &#39;Session time(HH:MM)&#39;,
+            ),
+          ),
+          RaisedButton(
+              color: Colors.green,
+              hoverColor: Colors.lightGreenAccent,
+              child: Text(&#39;Save Session&#39;,
+                  style: TextStyle(
+                    fontSize: 17,
+                    color: Colors.white,
+                  )),
+              onPressed: () {
+                if (_formKey2.currentState.validate()) {}
+              })
+        ],
+      ));
+}</code></pre>
+    </section>
+
+  </div> <!-- /.main-content -->
+
+  <div id="dartdoc-sidebar-right" class="sidebar sidebar-offcanvas-right">
+  </div><!--/.sidebar-offcanvas-->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    powerup
+      1.0.0+1
+  </span>
+
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="../static-assets/typeahead.bundle.min.js"></script>
+<script src="../static-assets/highlight.pack.js"></script>
+<script src="../static-assets/script.js"></script>
+
+
+</body>
+
+</html>
